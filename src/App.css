@@ -1,0 +1,100 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: rgba(226,226,226,1);
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 2rem
+}
+body{
+  text-align: center;
+}
+.printImg{
+  width: 100%;
+  height: 23vw;
+}
+.search_form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.printBlock{
+  font-family: serif;
+  margin-bottom: 2rem;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.newBlockBtn{
+  font-size: 20px;
+  font-family: monospace;
+  border-radius: 5px;
+  border: 2px solid #282c34;
+  background: transparent;
+  cursor: pointer;
+}
+.newBlockBtn:focus{
+  outline: none;
+}
+.newBlockBtn:hover{
+  transition: .7s;
+  background: #282c34;
+}
+.newBlockBtn .linkToResipe{
+  color: black;
+  text-decoration: none;
+  transition: .7s;
+}
+.newBlockBtn .linkToResipe:hover{
+  color: #fff;
+  transition: .7s;
+}
+.searchInp{
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+  font-family: monospace;
+  padding-left: 15px;
+}
+.searchInp:focus{
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+.searchInp:hover{
+  transition: .7s;
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+.searchBtn{
+  border-radius: 20px;
+  border: none;
+  font-family: cursive;
+  cursor: pointer;
+}
+.searchBtn:focus{
+  outline: none;
+}
+.searchBtn:hover{
+  background-color: #282c34;
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px #fff;
+  transition: .7s;
+}
+.printRecipe{
+  font-family: monospace;
+}
+.titleForRecipe{
+  color: #282c34;
+  font-weight: bold;
+}
